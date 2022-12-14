@@ -1,0 +1,8 @@
+beq $s1,$s2,5
+Jal $s1,2
+add $s1,$s2,$s3
+add $s1,$s2,$s3
+not $s1
+add $s2,$s3,$s1
+hasdashvda:
+add $s2,$s3,$s1
