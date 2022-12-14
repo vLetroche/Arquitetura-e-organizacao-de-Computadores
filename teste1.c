@@ -278,7 +278,6 @@ int main()
                 operation[i + 1] = '\0';
             }
             c = fgetc(arq);
-            linha++;
             if (c == '\n')
             {
                 if(qtdLabel == limiteVetor){
