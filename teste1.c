@@ -443,5 +443,8 @@ int main()
         }
     }
 
+    fclose(arq);
+    fclose(saida);
+    free(vetorLabel);
     return 0;
 }
